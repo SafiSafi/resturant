@@ -1,0 +1,285 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #E4DCDA;
+}
+header{
+    background-color:#130E22;
+    height: 70px;
+    width: 100%;
+}
+header h1{
+    margin: 10px;
+    float: left;
+    margin-top:13px;
+    font-size: 40px;
+    color: #DDAE7A;
+    font-family: open sans;
+    font-size: 50px;
+}
+header span{
+    color:#E4DCDA;
+    font-size: 40px;
+}
+
+header nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+    padding-right:80px;
+    padding-top: 10px;
+}
+header nav ul li{
+    display: inline-block;
+}
+header nav ul li a{
+    display: block;
+    padding: 20px;
+    color:#E4DCDA;
+    text-decoration: none;    
+}
+ header nav ul li.active a{
+    color: #FF8D00;
+}
+header nav ul li a:hover{
+      color: #DDAE7A;
+}
+.banner{
+    background-image: url(hd.jpg);
+    background-size: cover;
+    height: 592px;
+    text-align: center;
+    color: #E4DCDA;
+    padding-top: 290px;
+}
+.banner h2{
+    color: #DDAE7A;
+    font-family: 'great vibes' , cursive;
+    font-size: 55px
+}
+.banner h1{
+    color: #FF8D00;
+    font-family: roboto slab;
+    margin: 30px;
+}
+.banner h3{
+    text-shadow:0 0 5px #000;
+    font-size: 20px;
+    font-family: Arial, Tahoma;
+}
+.banner button{
+    background-color: #FF8D00;
+    color:#130E22;
+    margin-top: 25px;
+    font-size: 30px;
+    padding: 15px;
+    border: none;
+}
+.container{
+    width: 90%;
+    background-color: #fff;
+    margin: auto;
+}
+.container .samples h1{
+    font-size: 35px;
+    padding: 15px;
+    font-family: roboto slab;
+}
+.container .samples span{
+    color: goldenrod;
+    font-size: 60px;
+    font-family: 'great vibes' , cursive;
+}
+.container .samples .items{
+    background-color: #fff;
+    float: left;
+}
+.container .samples .items .item{
+    border: 1px solid #ddd;
+    width: 21%;
+    background: #fff;
+    text-align: center;
+    margin: 0 24px;
+    float: left;
+}
+.container .samples .items .item img{
+    width: 220px;
+    margin:0 auto;
+    padding: 5px;
+    margin-top: 10px;
+}
+.container .samples .items .item .name{
+    font-family: roboto slab;
+}
+.container .samples .items .item .price{
+    font-family: roboto slab;
+    color: #FF8D00;
+}
+.container .samples .items .item .description{
+    font-family: roboto slab;
+    margin: 10px 0;
+}
+.clear {
+        clear: both
+}
+.container .test{
+    background-image: url(hd2.jpg);
+    background-size: cover;
+    height: 600px;
+    margin: 30px 0;
+    text-align: center;
+    padding-top: 50px;
+    font-family: roboto slab;
+}
+.container .test h1{
+    color: #fff;
+    font-size: 35px;
+    background-color: #DDAE7A;
+}
+.container .test img{
+    border-radius: 50%;
+    margin:20px;
+}
+.container .test h3,.container .test p{
+    padding: 5px;
+    text-shadow: 0 0 4px #fff;
+}
+.container .lastblog{
+    width: 50%;
+    margin: 10px 0;
+    font-family: 'roboto slab';
+    display: inline-block;
+}
+.container .lastblog h1,.container .news #newstitles{
+    font-size: 50px;
+    margin-left: 50px;
+    color: #130E22;
+    margin-bottom: 10px;
+    
+}
+.container .lastblog #blogtitle,.container .news #newstitle{
+    font-family: 'great vibes' , cursive;
+    color: #FF8D00;
+    font-size: 70px;
+    margin-right: 10px;
+}
+.container .lastblog .blogs{
+    background-color: #fff;
+    margin: 20px 0 20px 0 ;
+    
+}
+.container .lastblog .blogs .blog{
+    padding: 10px 0;
+    font-family: sans-serif;
+    margin: -20px 0 20px 10px;
+}
+.container .lastblog .blogs .blog .blogpic{
+    border: 1px solid #000;
+    margin-right: 20px;
+    padding: 10px;
+    width: 120px;
+    height: 120px;
+    background-color: #E4DCDA;
+    float: left;
+}
+.container .lastblog .blogs .blog .blogpic img{
+    height: 100px;
+    width: 100px;
+}
+.container .lastblog .blogs .blog .blogcontant {    
+
+    display: block;
+
+}
+.container .lastblog .blogs .blog .blogcontant h3{
+    margin-bottom: 10px;
+}
+.container .lastblog .blogs .blog .blogcontant span{
+    font-size: 12px;
+    color: #888; 
+}
+.container .lastblog .blogs .blog .blogcontant .date {
+    font-size: 12px;
+    color: #888;
+    
+}
+.container .lastblog .blogs .blog .blogcontant .by{
+    font-size: 12px;
+    color: #888;
+    margin-left: 15px;
+}
+.container .lastblog .blogs .blog .blogcontant p{
+    margin-top: 32px
+}
+.container .lastblog .blogs .blog .blogcontant .user a{
+    font-size: 12px;
+    color: #f00;
+    text-decoration: none;
+    margin-right: 15px;
+    
+}
+.container .lastblog .blogs .blog .blogcontant .readmore{
+    font-size: 15px;
+}
+.container .news{
+    width: 50%;
+    display: inline-block;
+    margin: 10px 0;
+    font-family: 'roboto slab';
+    float: right;
+    padding: 0 10px 10px 50px;
+}
+.container .news h1{
+    margin-bottom: 30px;
+}
+.container .news .eventimg{
+    
+}
+.container .news .eventimg img{
+    width: 500px;
+    height: 400px;
+}
+.event{
+    margin-top: 15px;
+}
+.eventdate{
+    width: 100px;
+    height: 100px;
+    background-color: #999;   
+    text-align: center;
+    display: inline-block;
+    float: left;
+}
+#date{
+    font-size: 25px;
+    padding-top: 17px;
+}
+#day{
+    color: #FF8D00;
+}
+.eventdetail{
+    background-color: #E4DCDA;
+    padding:10px;
+    width: 400px;
+    height: 100px;
+    float: left
+}
+footer{
+    width: 90%;
+    background-color: #fff;
+    margin: auto;
+}
+form{
+    width: 90%;
+    height: 150px;
+    background-color: #E4DCDA;
+    margin: auto;
+    padding: 60px 0 0 200px;
+}
+form h1{
+    display: inline-block;
+}
